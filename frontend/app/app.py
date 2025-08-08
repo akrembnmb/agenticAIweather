@@ -10,7 +10,6 @@ logger = logging.getLogger(__name__)
 # Initialize Dash app
 app = Dash(__name__, assets_folder='assets')
 
-# Backend API URL (set via environment variable or default to localhost)
 BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 # Layout
